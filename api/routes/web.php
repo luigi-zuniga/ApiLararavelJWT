@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::post('auth_login','AuthController@authenticate');
+
+// Route::group(['middleware' => 'cors'], function(){
+//     Route::resource('auth_login','AuthController@authenticate');
+// });

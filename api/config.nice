@@ -1,0 +1,7 @@
+#! /bin/sh
+#
+# Created by configure
+
+'/home/gaviotin/Descargas/php-7.1.11/configure' \
+'--enable-mbstring' \
+"$@"
